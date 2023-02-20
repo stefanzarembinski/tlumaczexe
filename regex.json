@@ -1,0 +1,154 @@
+{
+    "Flanschring verz.": [
+        "Flanschring verz. ([\\d.,]+)mm", 
+        "Pierścień z kołnierzem {} mm, ocynk."
+    ],
+    "Konus bis": [
+        "Konus bis ([\\d.,]+)mm", 
+        "Stożek na {} mm"
+    ],
+    "Konus": [
+        "Konus ([\\d.,]+)mm von ([\\d.,]+)mm auf ([\\d.,]+)mm", 
+        "Stożek {} mm od {} mm do {} mm"
+    ],
+    "Segm.bogen": [
+        "Segm.bogen ([\\d.,]+)° (\\d)D ([A-Z]{2}/[A-Z]{2}) ([\\d.,]+)mm", 
+        "Kolano {}°, {}D, {}, {} mm"
+    ],
+    "Segmentbogen ø": [
+        "Segmentbogen ø([\\d.,]+)mm ([\\d.,]+)° (\\d)D \\| ([A-Z]{2}/[A-Z]{2})", 
+        "Kolano {} mm, {}°, {}D, {}"
+    ],
+    "Sickenschelle verz.": [
+        "Sickenschelle verz. ([\\d.,]+)mm", 
+        "Obejma karbowana {} mm, ocynk."
+    ],
+    "Rohr ø": [
+        "Rohr ø([\\d.,]+)mm \\| ([\\d.,]+)mm lang \\| ([A-Z]{2}/[A-Z]{2})", 
+        "Rura {} mm, {} mm, dł. {}"
+    ],
+    "Sichtstrecke,": [
+        "Sichtstrecke, ([\\d.,]+)mm lang ([\\d.,]+)mm", 
+        "Wziernik {} mm, dł. {} mm"
+    ],
+    "Flex-Metallschlauch": [
+        "Flex-Metallschlauch ([\\d.,]+)mm", 
+        "Wąż elastyczny metalowy niepalny, {} mm"
+    ],
+    "Flex. Anschluss-Stück": [
+        "Flex. Anschluss-Stück ([\\d.,]+)mm", 
+        "Przyłącze elastyczne z wewn. rurą ochronną, {} mm"
+    ],
+    "Multi-Rohrhalterung /D B=": [
+        "Multi-Rohrhalterung /D B= [\\d.,]+mm M [\\d.,]+ ([\\d.,]+)mm", 
+        "Mocowanie Multi /D {} mm"
+    ],
+    "Multi-Rohrhalterung B=": [
+        "Multi-Rohrhalterung B= [\\d.,]+mm M [\\d.,]+ ([\\d.,]+)mm", 
+        "Mocowanie Multi {} mm"
+    ],
+    "Pneum.schieber ECO-P S": [
+        "Pneum.schieber ECO-P S ([\\d.,]+)mm", 
+        "Zasuwa elektropneumatyczna ECO-P S, {} mm"
+    ],
+    "Übergangsmanschette": [
+        "Übergangsmanschette ([\\d.,]+)mm", 
+        "Łącznik {} mm"
+    ],
+    "Abzweig ø": [
+        [
+            "Abzweig ø([\\d.,]+)mm ([A-Z]{2}) - ø([\\d.,]+)mm ([A-Z]{2}) | 1 Stutzen ø([\\d.,]+)mm", 
+            "Rozgałęzienie \"Y\" {} mm {} – {} mm {} / kruciec {} mm"
+        ],
+        [
+            "Abzweig ø([\\d.,]+)mm ([A-Z]{2}) - ø([\\d.,]+)mm ([A-Z]{2}) | ø([\\d.,]+)mm ([A-Z]{2})", 
+            "Rozgałęzienie \"Y\" {} mm {} – {} mm {} / {} mm {}"
+        ]
+    ],
+    "Kanalbogen": [
+        "Kanalbogen ([\\d.,]+)° sym. \\| ([\\d.,]+)mm x ([\\d.,]+)mm", 
+        "Kolano kanału {}°, {} x {} mm"
+    ],
+    "Einblasbogen": [
+        "Einblasbogen ([\\d.,]+)° ([\\d.,]+)mm ([\\d.,]+)x([\\d.,]+)mm \\- (\\d*)mm", 
+        "Kolano kanału {}°, {} mm, {} x {} mm - {} mm"
+    ],
+    "Kanal |": [
+        "Kanal \\| ([\\d.,]+)mm x ([\\d.,]+)mm \\| ([\\d.,]+)mm", 
+        "Kanał {} x {} mm, dł. {} mm"
+    ],
+    "Einblaskanal": [
+        "Einblaskanal ([\\d.,]+)mm x ([\\d.,]+)mm, ([\\d.,]+)mm lang, inkl. Rohrstutzen ø[\\d.,]+mm", 
+        "Kanał {} x {} mm, dł. {} mm"
+    ],
+    "Lochsiebkanal |": [
+        "Lochsiebkanal \\| ([\\d.,]+)mm x ([\\d.,]+)mm \\| ([\\d.,]+)mm", 
+        "Kanał perforowany {} x {} mm, dł. {} mm"
+    ],
+    "Pneumatik-Absperrschieber ECO-P S": [
+        "Pneumatik-Absperrschieber ECO-P S ([\\d.,]+)V ([\\d.,]+)mm", 
+        "Zasuwa elektropneumatyczna ECO-P S {} V, {} mm"
+    ],
+    "Pneumatik-Absperrschieber ECO-P": [
+        "Pneumatik-Absperrschieber ECO-P ([\\d.,]+)mm", 
+        "Zasuwa elektropneumatyczna ECO-P S {} mm"
+    ],
+    "Blinddeckel für Einblaskanal": [
+        "Blinddeckel für Einblaskanal ([\\d.,]+)mm x ([\\d.,]+)mm", 
+        "Zaślepka kanału {} mm x {} mm"
+    ],
+    "Blinddeckel für Kanal": [
+        "Blinddeckel für Kanal ([\\d.,]+)mm x ([\\d.,]+)mm", 
+        "Zaślepka kanału {} mm x {} mm"
+    ],
+    "Mp/Reinluftstutzen für MultiStar": [
+        "Mp/Reinluftstutzen für MultiStar ([\\d.,]+)x([\\d.,]+)mm", 
+        "Króciec wylotu czystego powietrza {} x {} mm"
+    ],
+    "Untergestell für MultiStar": [
+        "Untergestell für MultiStar 10/ 5 ([\\d.,]+)mm h",
+        "Podstawa MS 10/ 5 wys. {} mm"
+    ],
+    "Stahlstütze für senkrechte Rohrleitung": [
+        [
+            "Stahlstütze für senkrechte Rohrleitung ([\\d.,]+) mm H L [\\d.,]+x[\\d.,]+",
+            "Podpora rurociągu, wys. {} mm"
+        ],
+        [
+            "Stahlstütze für senkrechte Rohrleitung ([\\d.,]+) mm H IPB [\\d.,]+",
+            "Podpora rurociągu, wys. {} mm"
+        ],
+        [
+            "Stahlstütze für senkrechte Rohrleitung ([\\d.,]+) mm H IPBI [\\d.,]+",
+            "Podpora rurociągu, wys. {} mm"
+        ]
+    ],
+    "Rohluftstutzen für PMA-x, ohne Rückstaukl.": [
+        "Rohluftstutzen für PMA-x, ohne Rückstaukl. ([\\d.,]+)mm",
+        "Króciec wlotu powietrza do PMA, {} mm bez klapy zwrotnej"
+    ],
+    "Befestigungssatz,": [
+        "Befestigungssatz, 2-fach - ([\\d.,]+)mm für Multi-Rohrhalterung",
+        "Zestaw do mocowania, podwójny, {} mm"
+    ],
+    "Blinddeckel für Lochsiebkanal": [
+        "Blinddeckel für Lochsiebkanal ([\\d.,]+)mm x ([\\d.,]+)mm",
+        "Zaślepka kanału perforowanego {} x {}"
+    ],
+    "Blinddeckel mit Berstscheibe US, für Kanal": [
+        "Blinddeckel mit Berstscheibe US, für Kanal ([\\d.,]+)x([\\d.,]+)mm",
+        "Zaślepka kanału T {} x {}"
+    ],
+    "Fuß für Multi-Rohrhalterung -": [
+        "Fuß für Multi-Rohrhalterung -([\\d.,]+)mm",
+        "Stopa do mocownia Multi/ D, {} mm"
+    ],
+    "Konus ø": [
+        "Konus ø([\\d.,]+)mm FL - ø([\\d.,]+)mm 2FL | [\\d.,]+mm lang",
+        "Redukcja z {} mm na {} mm"
+    ],
+    "Mp/Sichtscheibe, innen glatt": [
+        "Mp/Sichtscheibe, innen glatt ([\\d.,]+)x([\\d.,]+)mm",
+        "Wziernik {} x {} mm"
+    ]
+}
