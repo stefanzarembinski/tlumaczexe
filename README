@@ -1,0 +1,23 @@
+## Instalacja
+
+https://github.com/stefanzarembinski/tlumaczwioletkiexe
+- tam zakladka "<> Code"
+    - tam zielony guzik po prawej stronie "<> Code"
+        - tam "Download ZIP"
+
+Odzipuj co przyszo, tam folder "tlumaczwioletkiexe-main" przenieś gdzie chcesz, możesz zmienić nazwę.
+
+
+
+## pyinstaller
+In "tlumacz.py" folder:
+    pyinstaller --onefile --distpath ./tlumaczwioletkiexe tlumacz.py # --noconsole
+
+## github
+
+https://github.com/stefanzarembinski/tlumaczwioletki
+https://github.com/stefanzarembinski/tlumaczwioletkiexe
+install git: https://git-scm.com/download/win
+git branch -a
+git pull origin main
+git pull
