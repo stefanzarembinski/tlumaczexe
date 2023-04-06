@@ -141,14 +141,54 @@
     ],
     "Fuß für Multi-Rohrhalterung -": [
         "Fuß für Multi-Rohrhalterung -([\\d.,]+)mm",
-        "Stopa do mocownia Multi/ D, {} mm"
+        "Stopa do mocowania Multi/ D, {} mm"
     ],
     "Konus ø": [
-        "Konus ø([\\d.,]+)mm FL - ø([\\d.,]+)mm 2FL | [\\d.,]+mm lang",
-        "Redukcja z {} mm na {} mm"
+        "Konus ø([\\d]+)mm (\\d*[A-Z]{2}) - ø([\\d]+)mm (\\d*[A-Z]{2}) \\| ([\\d]+)mm lang",
+        "Redukcja z {} mm {} na {} mm {}, dł. {} mm"
     ],
     "Mp/Sichtscheibe, innen glatt": [
         "Mp/Sichtscheibe, innen glatt ([\\d.,]+)x([\\d.,]+)mm",
         "Wziernik {} x {} mm"
-    ]
+    ],
+    "Bodenabsaughaube": [
+        "Bodenabsaughaube ([\\d.,]+)mm",
+        "Głowica odsysająca {} mm"
+    ],
+    "Dachdurchführung": [
+        "Dachdurchführung ([\\d.,]+)° schräg ø([\\d.,]+)mm",
+        "Przepust dachowy skośny {}°, ø{} mm"
+    ],
+    "Flexibler Stutzen": [
+        "Flexibler Stutzen ([\\d.,]+)mm x ([\\d.,]+)mm | ([\\d.,]+)mm lang",
+        "Przyłącze elastyczne {} x {} mm, dł. {} mm"
+    ],
+    "Kanalstutzen": [
+        "Kanalstutzen ([\\d.,]+)mm x ([\\d.,]+)mm",
+        "Kruciec kanału {} x {} mm"
+    ],
+    "Kanalkonsolen, Paar": [
+        "Kanalkonsolen, Paar ([\\d.,]+)x([\\d]+)mm L ([\\d]+)",
+        "Konsola kanału {} x {} mm, dł. {} mm"
+    ],
+    "Kaltleiter": [
+        "Kaltleiter ([\\d.,]+) kW",
+        "Termistor PTC {} kW"
+    ],
+    "Absperrschieber ECO-P": [
+        "Absperrschieber ECO-P 24 V \"S\" ([\\d]+)mm",
+        "Zasuwa elektropneumatyczna ECO-P S {} mm"
+    ],
+    "Einblaskasten für PMA": [
+        "Einblaskasten für PMA ([\\d.,]+)/([\\d.,]+) ([A-Z]{1})",
+        "Komora wlotowa separatora PMA {}/{} {} do wprowadzania materiału, z kołnierzem i wziernikiem, do przyłączenia wielu króćców z klapą zwrotną (art.0000126000)"
+    ],
+    "Löschleitung für MultiStar": [
+        "Löschleitung für MultiStar ([\\d]+)/([\\d]+)",
+        "Sucha rura gaśnicza do MultiStar {}/{}"
+    ],
+    "Schutzgitter für Rohr ø": [
+        "Schutzgitter für Rohr ø([\\d]+)mm ([A-Z]{1})",
+        "Kratka ochronna do rury ø{} mm {}"
+    ]             
 }
