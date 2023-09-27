@@ -1,2 +1,2 @@
-echo off
-start "Tlumacz Wioletki" cmd /C tlumacz.exe
+cd /d %~dp0
+tlumacz.exe
