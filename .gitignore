@@ -3,3 +3,5 @@ offer_de.txt
 *.docx\#
 *.lnk
 *.spec
+articles.json
+tlumacz.db
