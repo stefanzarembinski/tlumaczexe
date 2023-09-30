@@ -4,7 +4,7 @@
         "Rura {} mm, {} mm, d\u0142. {}"
     ],
     "0000361800": [
-        "Segmentbogen \u00f8(\\d+)mm (\\d+)\u00b0 (\\d+)D | ([A-Z]{2}/[A-Z]{2})",
+        "Segmentbogen \u00f8(\\d+)mm (\\d+)\u00b0 (\\d+)D \\| ([A-Z]{2}/[A-Z]{2})",
         "Kolano {1}\u00b0 {2}D, {3}, \u00f8{0} mm"
     ]
 }
